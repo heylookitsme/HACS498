@@ -239,8 +239,6 @@ for x in range(2018, 2023):
     x_axis.append(x)
     y_axis.append(len(recent_attacks))
 
-
-
 fig, ax = plt.subplots()
 bottom = np.zeros(3)
 width = 0.5
